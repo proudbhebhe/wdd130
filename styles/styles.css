@@ -1,5 +1,9 @@
+:root {
+    --color: darkblue;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--color);
     padding: 10px;
 }
 
@@ -24,7 +28,7 @@ aside {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--color);
 }
 
 aside img {
