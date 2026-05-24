@@ -1,5 +1,5 @@
 :root {
-    --primary-color: lightblue;
+    --primary-color: #055a05;
     /* forest green */
     --secondary-color: #e9c46a;
     /* warm sand */
@@ -41,7 +41,7 @@ h2 {
 }
 
 h2 {
-    background-color: darkblue;
+    background-color: var(--secondary-color);
     top: 50px;
     padding: 16px;
     text-align: center;
@@ -76,14 +76,15 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: black;
+    color: var(--accent2-color);
 }
 
-article {
+.hero article {
+    position: absolute;
     top: 300px;
     background-color: rgba(0, 0, 100, 0.5);
     color: white;
-    position: absolute;
+
 }
 
 .hero article img {
