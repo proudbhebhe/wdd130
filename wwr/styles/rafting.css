@@ -19,7 +19,6 @@ header {
 * {
     margin: 0;
     padding: 0;
-    box-sizing: boarder-box;
 }
 
 body {
@@ -51,7 +50,6 @@ nav,
 p,
 article {
     margin: 16px;
-    padding: 8xp;
 }
 
 .socialmedia a {
@@ -93,7 +91,6 @@ h1 {
     height: auto;
     border: 5px;
     margin: 20px;
-    box-shadow: 5px;
 }
 
 footer img {
