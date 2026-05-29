@@ -76,12 +76,12 @@ section {
 .history img {
     width: 200px;
     height: auto;
-    padding: 10px auto;
+    padding: 10px 0px;
     grid-area: 2/2;
 }
 
 .history p {
-    grid-column: 1/2 3/4;
+    grid-column: 1/2, 3/4;
 }
 
 .raft {
