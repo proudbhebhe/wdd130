@@ -171,7 +171,7 @@ h1 {
 
 .hero article {
     position: absolute;
-    top: 300px;
+    top: 250px;
     background-color: var(--accent2-color);
     opacity: 0.8;
     color: blue;
@@ -180,7 +180,7 @@ h1 {
 
 .hero article img {
     float: right;
-    width: 200px;
+    width: 160px;
     height: auto;
     border: 5px;
     margin: 20px;
