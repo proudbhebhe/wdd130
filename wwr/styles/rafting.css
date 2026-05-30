@@ -161,7 +161,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: var(--accent2-color);
+    color: orange;
 }
 
 .hero article {
@@ -169,7 +169,7 @@ h1 {
     top: 300px;
     background-color: var(--accent2-color);
     opacity: 0.8;
-    color: white;
+    color: blue;
 
 }
 
