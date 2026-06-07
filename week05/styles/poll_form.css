@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    color: navy;
+    display: flex;
+    margin: 1rem;
+    font-size: 1.5em;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form {
+    display: grid;
+    width: 550px;
+    margin: 0 auto;
+    padding: 50px;
+    border: #333 solid 1px;
+    border-radius: 50px;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+fieldset {
+    display: grid;
+    gap: 10px;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 /0.2);
+    padding: 1rem;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+.font-item {
+    display: grid;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+    place-content: center;
+
+}
+
+p {
+    color: navy;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.column1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 5px 0;
+    place-content: center;
+}
+
+.column2 {
+    display: grid;
+
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5em;
+    border-color: solid lightgrey;
+}
