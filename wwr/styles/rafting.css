@@ -111,7 +111,7 @@ section {
 }
 
 .raft img {
-    width: 100px;
+    width: 200px;
     height: auto;
     display: block;
 }
@@ -216,4 +216,117 @@ footer p {
     width: 30px;
     height: auto;
     display: block;
+}
+
+.company-header {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.company-header h1 {
+    position: static;
+    background-color: transparent;
+    color: black;
+    opacity: 1;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.company-header p {
+    margin: 5px 0;
+}
+
+.content-split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+    margin-bottom: 40px;
+}
+
+.map iframe {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form .two {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-form .two.top,
+.contact-form .two.radio {
+    align-items: start;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: var(--body-font);
+}
+
+.contact-form .two.radio div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 8px 10px;
+}
+
+.contact-form .two.checkbox {
+    display: flex;
+    gap: 10px;
+    margin-left: 130px;
+
+}
+
+.submit-btn {
+    margin-left: 130px;
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #ddd;
+}
+
+.contact-main .raft {
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.contact-main .raft figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.contact-main .raft {
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    border: 1px solid #666;
+    background-color: #f4f4f4;
+    padding: 30px;
+    margin-bottom: 40px;
 }
