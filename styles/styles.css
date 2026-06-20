@@ -17,6 +17,7 @@ body {
 nav {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     align-items: center;
     background-color: var(--color);
     padding: 10px;
@@ -61,7 +62,7 @@ aside img {
 aside h2 {
     position: absolute;
     top: 50px;
-    left: 100px;
+    left: 200px;
 }
 
 p {
